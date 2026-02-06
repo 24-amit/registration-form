@@ -1,0 +1,81 @@
+@import url('fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    background-image: linear-gradient(to right top, #f1b3d6, #e7b6e0, #dbbae9, #cfbeef, #c1c2f3, #b6c9f8, #accffa, #a4d5fa, #a0dffb, #a1e8fa, #a7f0f6, #b2f7f2);
+}
+
+.form {
+    width: 30%;
+    min-height: 350px;
+    padding: 1% 1.5%;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    background: white;
+}
+
+h1 {
+    font-size: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 1px;
+    color: rgb(75, 75, 75);
+    font-size: 15.5px;
+    line-height: 22px;
+}
+
+form {
+    padding: 0 4%;
+    text-align: left;
+}
+
+.labelled {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+}
+
+input[type="radio"] {
+    font-size: 18px;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+button {
+    padding: 3% 8%;
+    border: 0;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    background: rgb(42, 215, 42);
+}
+
+.hidden {
+    margin-top: 2%;
+}

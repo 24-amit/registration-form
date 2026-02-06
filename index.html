@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>REGISTRATION FORM</h1>
+        <p>Register on this Panel by fill up the following required Information.</p>
+        <br>
+        <form action="save.php" method="POST">
+            <div class="fullname">
+                <label for="fullname" class="labelled">Full Name</label>
+                <br>
+                <input type="text" name="fullname" required>
+                <div class="hidden one"></div>
+            </div>
+            <br>
+            <div class="email">
+                <label for="email-id" class="labelled">Email Id</label>
+                <br>
+                <input type="email" name="email" required>
+                <div class="hidden two"></div>
+            </div>
+            <br>
+            <div class="phone">
+                <label for="phoneno" class="labelled">Phone No</label>
+                <br>
+                <input type="number" name="phone" pattern="[0-9]{10}" maxlength="10" required>
+                <div class="hidden three"></div>
+            </div>
+            <br>
+            <div class="gender">
+                <label for="gender" class="labelled">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="Male">
+                <label for="male">Male</label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="Female">
+                <label for="female">Female</label>
+                <div class="hidden four"></div>
+            </div>
+            <br>
+            <div class="address">
+                <label for="address" class="labelled">Address</label>
+                <br>
+                <input type="text" name="address" required>
+                <div class="hidden five"></div>
+                </br>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
